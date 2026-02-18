@@ -1,0 +1,7 @@
+﻿services:
+  roadauto.web:
+    image: roadauto.web
+    build:
+      context: .
+      dockerfile: Dockerfile
+

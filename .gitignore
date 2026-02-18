@@ -416,3 +416,20 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# JetBrains / Rider
+.idea/
+**/.idea/
+*.sln.iml
+
+# .NET build artefacts
+**/bin/
+**/obj/
+
+# Local databases / secrets-ish
+*.db
+*.db-shm
+*.db-wal
+
+# OS junk
+.DS_Store
